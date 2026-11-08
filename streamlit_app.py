@@ -1,3 +1,7 @@
+import yfinance as yf
+import streamlit as st
+import yfinance as yf
+
 # Define the ticker and risk-free rate
 ticker = 'MSFT'
 rf_monthly = 0.0025  # 0.25% per month
