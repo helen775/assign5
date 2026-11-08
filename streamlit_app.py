@@ -29,7 +29,7 @@ print(f"Monthly Sharpe Ratio: {monthly_sharpe_ratio:.3f}")
 
 # Fetches 5 years of MSFT data and prints the final overall average closing price.
 st.title("MSFT 5-Year Average Stock Price")
-# Fetch 5 years of historical data for AAPL
+# Fetch 5 years of historical data for MSFT
 data = yf.Ticker("MSFT").history(period="5y")
 if not data.empty:
     # Calculate the total average closing price
