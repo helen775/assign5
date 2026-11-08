@@ -1,6 +1,6 @@
 import yfinance as yf
 import streamlit as st
-import yfinance as yf
+import pandas as pd
 
 # Define the ticker and risk-free rate
 ticker = 'MSFT'
