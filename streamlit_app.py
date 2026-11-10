@@ -3,16 +3,6 @@ import streamlit as st
 import pandas as pd
 
 
-
-# Download monthly stock price data for the past 5 years
-#data = yf.download(ticker, period='5y', interval='1mo')
-
-
-#print()
-#print()
-#print(f"Ticker: {ticker}")
-#print(f"Monthly Sharpe Ratio: {monthly_sharpe_ratio:.3f}")
-
 # Define the ticker and risk-free rate
 ticker = 'MSFT'
 rf_monthly = 0.0025  
