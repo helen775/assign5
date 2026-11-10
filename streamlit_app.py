@@ -8,7 +8,7 @@ ticker = 'MSFT'
 rf_monthly = 0.0025  
 
 # Fetches 5 years of MSFT data  
-st.title("MSFT 5-Year Sharpe Ratio")
+st.title("MSFT 5-Year Monthly Sharpe Ratio")
 # Fetch 5 years of historical data for MSFT
 data = yf.Ticker("MSFT").history(period="5y", interval= "1mo")
 
