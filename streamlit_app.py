@@ -24,7 +24,7 @@ data = yf.Ticker("MSFT").history(period="5y", interval= "1mo")
 
 if not data.empty:
     #Get monthly closing prices
-    close_prices = data['Close'][ticker]
+    close_prices = data['Close']
 
     # Calculate monthly returns
     monthly_returns = close_prices.pct_change().dropna()
